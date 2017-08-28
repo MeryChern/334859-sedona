@@ -1,0 +1,43 @@
+html, body{
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url("../fonts/pt_sans_cyrilic_400.woff2") format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(../fonts/pt_sans_latin_400.woff2) format('woff2');
+
+}
+
+
+/* cyrillic */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(../fonts/pt_sans_cyrillic_700.woff2) format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(../fonts/pt_sans_latin_700.woff2) format('woff2');
+
+}
